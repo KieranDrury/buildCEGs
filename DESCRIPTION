@@ -1,0 +1,29 @@
+Package: buildCEGs
+Type: Package
+Title: Constructing, Manipulating and Analysing Chain Event Graph Models
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Kieran", "Drury",
+      email = "kieran.drury@warwick.ac.uk",
+      role = c("aut", "cre","cph"),
+      comment = c(ORCID = "0009-0009-7153-2710")
+    )
+  )
+Description: Enables the user to manually build event trees, staged trees and 
+    chain event graphs, and to perform graph operations 
+    and probabilistic analyses on these models. The package is designed primarily 
+    to aid the development of expert-elicited chain event graphs, allowing users 
+    to construct and manipulate graphical models rather than relying on data-driven
+    algorithms.
+License: GPL (>= 3)
+Encoding: UTF-8
+Imports:
+    DiagrammeR,
+    DiagrammeRsvg,
+    jsonlite,
+    magrittr,
+    rsvg,
+    visNetwork
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
